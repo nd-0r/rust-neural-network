@@ -1,5 +1,5 @@
 [package]
-name = "NeuralNetwork"
+name = "neural_network"
 version = "0.1.0"
 edition = "2021"
 
@@ -7,3 +7,5 @@ edition = "2021"
 
 [dependencies]
 nalgebra = "0.30.0"
+rand = "0.8.3"
+rand_distr = "0.4.2"
