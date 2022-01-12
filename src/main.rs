@@ -1,7 +1,9 @@
 extern crate nalgebra as na;
 
 mod network;
-use network::Network;
+mod data_item;
+
+use crate::network::Network;
 
 fn main() {
     println!("Hello, world!");
